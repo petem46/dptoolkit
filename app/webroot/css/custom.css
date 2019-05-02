@@ -1,0 +1,110 @@
+body{ padding: 100px 0px; }
+
+a {
+	color: inherit;
+}
+.form-control {color: black;}
+.not-allowed {cursor: not-allowed;}
+.justify-content-between {display: flex;}
+.hidden {display: none;}
+.text-black {color: black;}
+.text-yellow {color: darkorange;}
+.displaytextproperly {white-space: pre-line; }
+.minwidth200 {min-width: 200px;}
+.border-primary {border-color: #2C3E50 !important;}
+.border-danger {border-color: #E74C3C !important;}
+.bg-lightblue {background-color: lightsteelblue;}
+.form-label {
+  font-weight: lighter;
+  color: lightslategray;
+}
+
+.card-list-item {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.footer {
+	padding: 0;
+	font-size: xx-small;
+	font-weight: lighter;
+}
+
+.overlaytext {
+  position: relative;
+  width: 100%;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 66px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.reveal:hover .overlay {
+  /*opacity: 1;*/
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text a {
+	color: 	#212529;
+	text-decoration: none;
+}
+
+/* PLACE HOLDER STYLING */
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darkorange ;
+    opacity: 1; /* Firefox */
+    font-style: italic;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: darkorange;
+    font-style: italic;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: darkorange;
+    font-style: italic;
+}
+
+.policydocs li {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.policydocs a:hover {
+  text-decoration: none !important;
+  color: initial;
+}
+
+.policydocs li:hover {
+  background-color: lightgoldenrodyellow;
+  /*cursor: pointer;*/
+  text-decoration: none !important;
+}
+
+.disabled li:hover {
+  background-color: initial;
+}
